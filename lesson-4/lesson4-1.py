@@ -1,5 +1,5 @@
 import requests
-
+# Lấy thông tin bản quyền, tác giả, url, ...
 print("Python Requests module - version:", requests.__version__)
 print("Licence:", requests. __license__)
 print("Copyright:", requests.__copyright__)

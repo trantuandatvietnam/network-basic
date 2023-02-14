@@ -2,6 +2,7 @@
 import socket
 import sys
 
+# Thực hiện tạo instance socket
 try:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     print ("Socket successfully created")

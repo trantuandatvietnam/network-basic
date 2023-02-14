@@ -2,14 +2,15 @@ import socket
 
 s = socket.socket()        
  
-# Define the port on which you want to connect
+# Định nghĩa PORT mà client muốn kết nối tới
 port = 12345               
  
-# connect to the server on local computer
+# Máy tính có địa chỉ localhost là: 127.0.0.1
 localhost_ip = "127.0.0.1"
+# Thực hiện kết nối tới local server 
 s.connect((localhost_ip, port))
  
-# receive data from the server and decoding to get the string.
+# Nhận được dữ liệu từ server và giải mã code => Nhận được ở dạng string ban đầu
 print(s.recv(1024).decode())
 # close the connection
 s.close()    

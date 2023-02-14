@@ -1,6 +1,6 @@
 # modules
 import socket
-
+# Thực hiện lấy các thông tin từ domain name
 try:
     domain_name = "www.actvn.edu.vn"
     print("Hostname: ", socket.gethostname())
